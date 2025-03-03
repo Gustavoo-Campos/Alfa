@@ -1,0 +1,208 @@
+@import url('global.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+
+
+.header {
+
+    height: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 120px 0px 20px 0px;
+    background: linear-gradient(50deg, var( --color-tertiary), #0000006f, var(--color-quatro));
+    background-size: 400% 400%;
+    box-shadow: inset 0px -23px 30px 0px var(--color-primary);
+
+    animation: gradient 8s ease-in-out infinite alternate;
+}
+
+.header__nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(130, 47, 163, 0.082);
+    padding: 0px 8vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    position: absolute;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.header__nav__opcoes {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.assinaturas {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 20px;
+}
+
+
+
+.assinaturas__card{
+    width: 80vw;
+    max-width: 725px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    background: var( --color-card);
+    transition: ease 0.8s;
+   
+}
+
+
+.assinaturas__card__header {
+    width: 95%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.assinaturas__card__body{
+opacity: 0;
+height: 0px;
+transition: ease-in-out 0.8s;
+}
+
+
+.assinaturas__card__body.active {
+    width: 95%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 70px 0px;
+    opacity: 1;
+    transition: ease-in-out 0.8s;
+}
+
+
+.assinaturas__card:has(.active) .assinaturas__card__ceta{
+    transform: rotate(90deg);
+    transition: ease-in-out 0.8s;
+}
+
+
+
+
+
+
+
+
+.filmes {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.filmes__catalogo {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.filmes__card {
+    border-radius: 10px;
+    height: 420px;
+}
+
+.filmes__card__img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: ease 2s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* - - - - - - HOVERS - - - - - - -*/
+
+
+
+
+.assinaturas__card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transform: rotate(-3deg);
+    transition: ease 0.8s;
+    perspective: 4000px;
+    transform-style: preserve-3d;
+    filter: drop-shadow(0px 0px 8px #cb21ff6b);
+    
+   
+}
+
+
+.filmes__card:nth-child(1):hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    background-image: url(img/troca.svg);
+    background-repeat: no-repeat;
+    outline: 2px solid #7f52bd;
+    border-radius: 10px;
+    transition: ease 1s;
+}
+
+.filmes__card:hover .filmes__card__img {
+    opacity: 0;
+}
+
+
+/* - - - - - @MEDIAS - - - - - -*/
+
+
+@media screen and (min-width: 768px) {
+    .filmes__catalogo {
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
