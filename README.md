@@ -1,13 +1,34 @@
 # Projeto principal (Master)
 
-<div aling-itens="center">
+<div align="center">
 <img  width="70%"   src="https://github.com/Gustavoo-Campos/master/blob/main/src/img/post.png">
 </div>
+<br>
+
+
+<h3 align="center">
  
-#### Esse é o projeto que sempre recebe atualizações com novos conhecimentos!
+{ [- Ver projeto principal !](https://gustavoo-campos.github.io/master/) }
+</h3>  
+
+
+ ## Descrição
+ 
+<p>
+ Esse é um projeto que sempre recebe atualizações, podendo mudar de design, de contexto, de logística, etc.
+ <ul>
+
+<li>
+   A ideia inicial é ser um site de streaming onde há asinaturas, cartezes de filmes, etc.
+</li>
+<li>
+   Todo o projeto é fictício, apenas com o intúito de colocar em prática os conhecimetos adquiridos. 
+</li> 
+ </ul>
+ 
+</p> 
 
 
 
 
-###  [- Ver projeto principal !](https://gustavoo-campos.github.io/master/) 
   
