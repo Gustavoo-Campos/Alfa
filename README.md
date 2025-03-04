@@ -1,7 +1,7 @@
 # Projeto principal (Master)
 
 <div align="center">
-<img  width="70%"   src="https://github.com/Gustavoo-Campos/master/blob/main/src/img/post.png">
+<img src="https://github.com/Gustavoo-Campos/master/blob/main/src/img/streaming.png">
 </div>
 <br>
 
