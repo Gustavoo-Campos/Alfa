@@ -23,7 +23,7 @@
    A ideia inicial é ser um site de streaming onde há asinaturas, cartezes de filmes, etc.
 </li>
 <li>
-   Todo o projeto é fictício, apenas com o intúito de colocar em prática os conhecimetos adquiridos. 
+   Todo o projeto é fictício, apenas com o objetivo de colocar em prática os conhecimetos adquiridos. 
 </li> 
  </ul>
  
