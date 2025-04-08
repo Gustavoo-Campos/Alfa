@@ -1,4 +1,4 @@
-# Projeto principal (Master)
+# Projeto Alfa
 
 <div align="center">
 <img src="https://github.com/Gustavoo-Campos/master/blob/main/src/img/streaming.png">
