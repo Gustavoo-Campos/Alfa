@@ -9,7 +9,7 @@
 
 <h3 align="center">
     
-{ [🔖 Ver projeto principal !](https://gustavoo-campos.github.io/Alfa/) }
+{ [🔖 Ver projeto Alfa !](https://gustavoo-campos.github.io/Alfa/) }
 </h3>  
 
 
