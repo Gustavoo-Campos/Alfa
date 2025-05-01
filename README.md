@@ -5,14 +5,6 @@
 </div>
 
 
-
-
-<h3 align="center">
-    
-{ [🔖 Ver projeto Alfa !](https://gustavoo-campos.github.io/Alfa/) }
-</h3>  
-
-
  ## Descrição
  
 <p>
