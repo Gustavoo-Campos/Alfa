@@ -10,12 +10,12 @@
 
 .header {
 
-    height: 400px;
+    height: 384px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     padding: 120px 0px 20px 0px;
-    background: linear-gradient(50deg, var( --color-tertiary), #0000006f, var(--color-quatro));
+    background: linear-gradient(50deg, var( --color-tertiary), #00000085, #961184);
     background-size: 400% 400%;
     box-shadow: inset 0px -23px 30px 0px var(--color-primary);
 
@@ -47,7 +47,11 @@
 }
 
 
-
+.header-button{
+    width: 200px;
+    height: 40px;
+    padding: 9px 0px 0px 0px;
+}
 
 
 
@@ -56,7 +60,6 @@
 
 
 .assinaturas {
-    margin-top: 30px;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -70,9 +73,8 @@
     max-width: 725px;
     display: flex;
     flex-flow: column nowrap;
-    align-items: flex-start;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     padding: 20px;
     border-radius: 10px;
     background: var( --color-card);
