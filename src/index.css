@@ -15,7 +15,7 @@
     flex-flow: column nowrap;
     align-items: center;
     padding: 120px 0px 20px 0px;
-    background: linear-gradient(50deg, var( --color-tertiary), #00000085, #961184);
+    background: linear-gradient(50deg, var(--color-tertiary), #00000085, #961184);
     background-size: 400% 400%;
     box-shadow: inset 0px -23px 30px 0px var(--color-primary);
 
@@ -47,10 +47,10 @@
 }
 
 
-.header-button{
+.header-button {
     width: 200px;
-    height: 40px;
-    padding: 9px 0px 0px 0px;
+    height: 50px;
+    padding: 14px 0px 0px 0px;
 }
 
 
@@ -68,7 +68,7 @@
 
 
 
-.assinaturas__card{
+.assinaturas__card {
     width: 80vw;
     max-width: 725px;
     display: flex;
@@ -76,9 +76,9 @@
     align-items: center;
     padding: 20px;
     border-radius: 10px;
-    background: var( --color-card);
+    background: var(--color-card);
     transition: ease 0.8s;
-   
+
 }
 
 
@@ -94,27 +94,27 @@
 
 }
 
-.assinaturas__card__body{
-opacity: 0;
-height: 0px;
-transition: ease-in-out 0.8s;
+.assinaturas__card__body {
+    opacity: 0;
+    height: 0px;
+    transition: ease-in-out 0.8s;
 }
 
 
 .assinaturas__card__body.active {
     width: 95%;
-    height: 80px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 40px;
     margin: 20px 0px 70px 0px;
     opacity: 1;
     transition: ease-in-out 0.8s;
 }
 
 
-.assinaturas__card:has(.active) .assinaturas__card__ceta{
+.assinaturas__card:has(.active) .assinaturas__card__ceta {
     transform: rotate(90deg);
     transition: ease-in-out 0.8s;
 }
@@ -181,8 +181,8 @@ transition: ease-in-out 0.8s;
     perspective: 4000px;
     transform-style: preserve-3d;
     filter: drop-shadow(0px 0px 8px #cb21ff6b);
-    
-   
+
+
 }
 
 
@@ -227,9 +227,15 @@ transition: ease-in-out 0.8s;
 
 
 @media screen and (min-width: 768px) {
+
+
+
+
+
     .filmes__catalogo {
         grid-template-rows: 1fr;
         grid-template-columns: repeat(3, 1fr);
-    }
-}
 
+    }
+
+}
