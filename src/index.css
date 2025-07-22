@@ -240,6 +240,63 @@ footer::after{
     transition: ease 1s;
 }
 
+
+
+.filmes__card:nth-child(4):hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    background-image: url(img/hbo.svg);
+    background-repeat: no-repeat;
+    outline: 2px solid #7f52bd;
+    border-radius: 10px;
+    transition: ease 1s;
+}
+.filmes__card:nth-child(5):hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    background-image: url(img/DC.svg);
+    background-repeat: no-repeat;
+    outline: 2px solid #7f52bd;
+    border-radius: 10px;
+    transition: ease 1s;
+}
+.filmes__card:nth-child(6):hover {
+    cursor: pointer;
+    transform: scale(1.08);
+    background-image: url(img/CN.svg);
+    background-repeat: no-repeat;
+    outline: 2px solid #7f52bd;
+    border-radius: 10px;
+    transition: ease 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .filmes__card:hover .filmes__card__img {
     opacity: 0;
 }
@@ -248,12 +305,11 @@ footer::after{
 /* - - - - - @MEDIAS - - - - - -*/
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1000px) {
 
-    
-.filmes__catalogo{
-    justify-content: center;
-}
+    .filmes__catalogo{
+        justify-content: center;
+    }
 
 
 }
