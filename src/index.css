@@ -304,12 +304,3 @@ footer::after{
 
 /* - - - - - @MEDIAS - - - - - -*/
 
-
-@media screen and (min-width: 1000px) {
-
-    .filmes__catalogo{
-        justify-content: center;
-    }
-
-
-}
