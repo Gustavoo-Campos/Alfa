@@ -5,13 +5,14 @@
 
 
 
-:root, :root[data-theme="dark"] {
+:root,
+:root[data-theme="dark"] {
     --color-primary: #240756;
     --color-secondary: #755292;
     --color-tertiary: #206991;
     --color-quatro: #4f028e;
     --color-card: #7f52bd7d;
-   
+
 }
 
 :root[data-theme="light"] {
@@ -20,7 +21,7 @@
     --color-tertiary: #3B7696;
     --color-quatro: #894EBA;
     --color-card: #41108b99;
-   
+
 }
 
 
@@ -49,7 +50,7 @@ main {
 }
 
 
-main::after{
+main::after {
     content: "";
     height: 100px;
     background-color: var(--color-secondary);
@@ -74,8 +75,8 @@ h2 {
     color: #DA05CC;
 }
 
-h3{
-    max-width: 340px ;
+h3 {
+    max-width: 340px;
     text-align: center;
     display: block;
     font-size: 1.17em;
@@ -88,14 +89,14 @@ h3{
     unicode-bidi: isolate;
 }
 
-hr{
+hr {
     width: 80%;
     margin: auto;
     opacity: 32%;
 }
 
-p{
-    
+p {
+
     text-align: center;
 }
 
