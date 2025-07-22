@@ -61,16 +61,19 @@
 
 .assinaturas {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: row wrap;
     align-items: center;
+    justify-content: center;
     gap: 20px;
+    padding: 0px 32px;
 }
 
 
 
 .assinaturas__card {
     width: 80vw;
-    max-width: 725px;
+    max-width: 336px;
+   
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -111,6 +114,7 @@
     margin: 20px 0px 70px 0px;
     opacity: 1;
     transition: ease-in-out 0.8s;
+   
 }
 
 
@@ -137,10 +141,15 @@
 
 .filmes__catalogo {
 
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    gap: 20px;
+    width: 98vw;
+    height: 470px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 0px 40px;
+    gap: 32px;
+    overflow: scroll;
+  
 }
 
 
@@ -150,7 +159,7 @@
 }
 
 .filmes__card__img {
-    width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: center;
     transition: ease 2s;
@@ -160,10 +169,23 @@
 
 
 
+.footer__p{
+    width: 70%;
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 10px;
+    margin-top: 12px;
+    opacity: 32%;
+}
 
 
-
-
+footer::after{
+    content: "";
+    width: 100%;
+    height: 16px;
+    display: block;
+    margin-top: 10px;
+}
 
 
 
@@ -228,14 +250,10 @@
 
 @media screen and (min-width: 768px) {
 
+    
+.filmes__catalogo{
+    justify-content: center;
+}
 
-
-
-
-    .filmes__catalogo {
-        grid-template-rows: 1fr;
-        grid-template-columns: repeat(3, 1fr);
-
-    }
 
 }

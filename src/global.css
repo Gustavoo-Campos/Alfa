@@ -75,7 +75,7 @@ h2 {
 }
 
 h3{
-    max-width: 80% ;
+    max-width: 340px ;
     text-align: center;
     display: block;
     font-size: 1.17em;
@@ -88,6 +88,11 @@ h3{
     unicode-bidi: isolate;
 }
 
+hr{
+    width: 80%;
+    margin: auto;
+    opacity: 32%;
+}
 
 p{
     
