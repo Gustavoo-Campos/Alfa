@@ -141,7 +141,7 @@
 
 .filmes__catalogo {
 
-    width: 98vw;
+    width: 100vw;
     height: 470px;
     display: flex;
     flex-flow: row nowrap;
